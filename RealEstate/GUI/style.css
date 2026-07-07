@@ -1,0 +1,318 @@
+
+#leftScreen {
+    -fx-background-color: darkblue;
+    -fx-alignment: center;
+    -fx-spacing: 15px;
+    -fx-padding: 40px;
+}
+
+#title {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+}
+
+#email-field, #password-field {
+    -fx-border-width: 1px;
+    -fx-border-color: lightslategray;
+    -fx-border-style: solid;
+    -fx-prompt-text-fill: lightslategray;
+    -fx-font-size: 16px;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-padding: 8px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+#form-title {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-font-weight: bolder;
+}
+
+#forgotPass {
+    -fx-text-fill: darkblue;
+    -fx-cursor: hand;
+}
+
+#lastRow {
+    -fx-spacing: 110px;
+    -fx-alignment: center-left;
+}
+
+#sign-in {
+    -fx-background-color: darkblue;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+    -fx-background-radius: 5px;
+}
+
+#sign-in:hover {
+    -fx-background-color: rgba(0, 0, 139, 0.4);
+    -fx-cursor: hand;
+}
+
+#dashboard-root {
+    -fx-background-color: #f4f6f9;
+}
+
+#top-bar {
+    -fx-background-color: darkblue;
+    -fx-padding: 10px;
+    -fx-spacing: 15px;
+    -fx-alignment: center-left;
+}
+
+#welcome-label {
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+
+#logout-btn, #add-agent-btn {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-padding: 8px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+#add-agent-btn {
+    -fx-background-color: #27ae60;
+}
+
+#add-agent-btn:hover {
+    -fx-background-color: #219a52;
+}
+
+#logout-btn:hover {
+    -fx-background-color: #c0392b;
+}
+
+#nav-panel {
+    -fx-background-color: #2c3e50;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-pref-width: 200px;
+}
+
+#nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-alignment: center-left;
+    -fx-cursor: hand;
+    -fx-background-radius: 5px;
+}
+
+#nav-button:hover {
+    -fx-background-color: #1abc9c;
+}
+
+#center-content {
+    -fx-padding: 20px;
+    -fx-spacing: 20px;
+}
+
+#property-screen {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-padding: 15px;
+    -fx-spacing: 10px;
+}
+
+#property-toolbar {
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+}
+
+#add-property-btn, #refresh-btn, #search-btn, #clear-btn {
+    -fx-background-color: darkblue;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 8px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+#search-btn {
+    -fx-background-color: #3498db;
+}
+
+#clear-btn {
+    -fx-background-color: #95a5a6;
+}
+
+#add-property-btn:hover, #refresh-btn:hover {
+    -fx-background-color: #1a3a6f;
+}
+
+#search-btn:hover {
+    -fx-background-color: #2980b9;
+}
+
+#clear-btn:hover {
+    -fx-background-color: #7f8c8d;
+}
+
+#search-field {
+    -fx-background-color: #f0f4f8;
+    -fx-border-width: 1px;
+    -fx-border-color: #cbd5e1;
+    -fx-border-style: solid;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 13px;
+    -fx-prompt-text-fill: #94a3b8;
+}
+
+#property-table {
+    -fx-background-color: white;
+    -fx-border-width: 1px;
+    -fx-border-color: #e0e6ed;
+    -fx-border-style: solid;
+    -fx-border-radius: 5px;
+}
+
+#edit-btn, #sell-btn, #delete-btn {
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;
+    -fx-padding: 5px;
+    -fx-background-radius: 3px;
+    -fx-cursor: hand;
+}
+
+#edit-btn {
+    -fx-background-color: #f39c12;
+}
+
+#edit-btn:hover {
+    -fx-background-color: #d68910;
+}
+
+#sell-btn {
+    -fx-background-color: #e67e22;
+}
+
+#sell-btn:hover {
+    -fx-background-color: #d35400;
+}
+
+#delete-btn {
+    -fx-background-color: #95a5a6;
+}
+
+#delete-btn:hover {
+    -fx-background-color: #7f8c8d;
+}
+
+/* ========== CLIENT SCREEN ========== */
+
+#client-screen {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-padding: 15px;
+    -fx-spacing: 10px;
+}
+
+#client-toolbar {
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+}
+
+#add-client-btn {
+    -fx-background-color: darkblue;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 8px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+#add-client-btn:hover {
+    -fx-background-color: #1a3a6f;
+}
+
+#client-table {
+    -fx-background-color: white;
+    -fx-border-width: 1px;
+    -fx-border-color: #e0e6ed;
+    -fx-border-style: solid;
+    -fx-border-radius: 5px;
+}
+
+
+#transaction-screen {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-padding: 15px;
+    -fx-spacing: 10px;
+}
+
+#transaction-selector {
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+}
+
+#select-label {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: #2c3e50;
+}
+
+#property-combo {
+    -fx-background-color: #f0f4f8;
+    -fx-border-width: 1px;
+    -fx-border-color: #cbd5e1;
+    -fx-border-style: solid;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 13px;
+}
+
+#transaction-table {
+    -fx-background-color: white;
+    -fx-border-width: 1px;
+    -fx-border-color: #e0e6ed;
+    -fx-border-style: solid;
+    -fx-border-radius: 5px;
+}
+
+
+.table-cell {
+    -fx-padding: 5px;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 13px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-row-cell:even {
+    -fx-background-color: white;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #d0d8e8;
+}
